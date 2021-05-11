@@ -14,7 +14,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
 
-@Path("/api/v1/")
+@Path("/api/v1")
 public interface ProductoServicio {
 	
 	@Path("/productos")
